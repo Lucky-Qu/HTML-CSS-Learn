@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+  <meta charset = "UTF-8">
+  <title>Hyperlink</title>
+</head>
+<body>
+<!--a标签为超链接标签，其href属性为跳转的地方，其中的target属性为打开方式，默认值为_self，即在当前标签页打开，填写为_blank即为在新建标签页中打开-->
+<a href="http://www.luckyqu.cn" target="_blank">LuckyQu的基地</a>
+<!--a标签还是一种特殊的行内标签，其中可以包含块元素，但不能包含自身-->
+<!--a标签还可以跳转到文件内部页面-->
+<a href="../practice01_basicNewsWebpage/index.html" target="_self">练习题一</a>
+<!--a标签还可以配置href属性指向文件从而让浏览器打开或触发下载，配置download属性可以强制触发下载，配置的值为下载时的默认名字-->
+<a href="../resource/Go3.png" target="_self">浏览器会打开这个图片</a>
+<a href="../resource/Go3.png" target="_self" download="Go3.png">浏览器会触发下载这个图片</a>
+<!--a标签还可以跳转锚点与标记锚点，使用无标签体的a标签配置name即定义一个名为name值的锚点，使用配置href属性为井号加锚点名的a标签跳转-->
+<!--name目前已经弃用，改为配置id属性-->
+<!--任何标签都有id属性，配置id属性以作为锚点，id避免使用数字开头，如果跳转锚点时井号后不写东西则为跳转至头部-->
+<!--href留空为刷新页面-->
+<!--还可以搭配从而跳转到其他页面的锚点位置-->
+<a href="#here" target="_self">点击跳转</a>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<a id="here" ></a>
+<p>我想要跳转到的地方</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<p>凑行数的字</p>
+<a href="#">跳转至顶部</a>
+<a href="../practice01_basicNewsWebpage/index.html#here" target="_self">跳转至练习页面的一行</a>
+</body>
+</html>
