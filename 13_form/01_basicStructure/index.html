@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>BasicStructure</title>
+</head>
+<body>
+<!--表单标签-->
+<!--配置action属性来交由action指定的值来处理-->
+<form action="https://www.baidu.com/s" method="get" target="_blank">
+<!--输入框标签-->
+<!--  type属性指输入的内容类别，name属性指表单项的名字，value为默认值，maxlength为最大输入长度-->
+  <input type="text" name="wd">
+<!--按钮标签-->
+  <button>提交</button>
+</form>
+示例<br>
+<form action="http://localhost:7777/test" method="post" target="_blank">
+  账号：<input type="text" name="account"><br>
+  密码：<input type="password" name="password"><br>
+  <button>提交</button>
+</form>
+</body>
+</html>

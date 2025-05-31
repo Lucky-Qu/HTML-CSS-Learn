@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>tags</title>
+</head>
+<body>
+<!--表单标签-->
+<form action="http://localhost:7777/test" method="post">
+  <!--文本填写框-->
+  <!--配置Value值以指定初始值-->
+  文本框<input type="text" value="LuckyQu" >
+  <br>
+  <!--密码填写框-->
+  密码框<input type="password">
+  <br>
+  <!--单选框-->
+  单选框
+  <input type="radio" name="option" checked>选项1
+  <input type="radio" name="option">选项2
+  <br>
+  <!--复选框-->
+  复选框
+  <input type="checkbox" name="options">选项1
+  <input type="checkbox" name="options" checked>选项2
+  <input type="checkbox" name="options">选项3
+  <br>
+  <!--文本域-->
+  文本域<br>
+  <textarea name="textarea" id="idc" cols="30" rows="10">想指定的初始文本</textarea>
+  <br>
+  <!--下拉框-->
+  下拉框
+  <select name="select" id="idcc">
+    <option value="1">1</option>
+    <option value="2" selected>2</option>
+    <option value="3">3</option>
+  </select>
+  <!--隐藏域-->
+  <input type="hidden" name="hidden" value="1">
+  <!--重置按钮-->
+  <input type="reset" name="重置">
+  <!--提交按钮-->
+  <input type="submit" name="提交">
+  <!--按钮-->
+  <button type="button">只是一个按钮</button>
+  <!--关联-->
+  <br>
+  <label>
+    关联好的输入框
+    <input type="text">
+  </label>
+  <br>
+  <!--分类-->
+  <fieldset>
+    <legend>一个分类</legend>
+    <label>
+      一个被分类且关联好的选项
+      <input type="checkbox" name="antimatter">
+    </label>
+  </fieldset>
+</form>
+</body>
+</html>
