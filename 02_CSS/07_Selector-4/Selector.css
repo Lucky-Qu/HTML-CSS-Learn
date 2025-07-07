@@ -1,0 +1,64 @@
+/*伪类选择器，用于选中特殊状态的元素*/
+/*同时满足多个条件时，优先触发后面的*/
+a:link {
+    /*点击前的效果*/
+}
+a:visited {
+    /*点击后的效果*/
+}
+a:hover {
+    /*鼠标悬浮上的效果*/
+}
+a:active {
+    /*鼠标点击不松手的效果*/
+}
+
+input:focus{
+    /*获取焦点的效果*/
+}
+
+p:first-child{
+    /*第一个子类的效果*/
+}
+p:last-child{
+    /*最后一个子类的效果*/
+}
+p:nth-child(2){
+    /*第n个子类的效果，括号内可以写公式（an+b）或even（偶数）odd（奇数）*/
+}
+p:first-of-type{
+    /*第一个p类型的兄弟元素效果*/
+}
+p:last-of-type{
+    /*最后一个p类型的兄弟元素效果*/
+}
+p:nth-of-type(n){
+    /*第n个p类型的效果*/
+}
+:root{
+    /*选中的是根元素*/
+}
+div:empty{
+    /*选中空的div*/
+}
+div:not(:empty){
+    /*选中非空的div*/
+}
+select:checked{
+    /*选中的框的效果*/
+}
+input:disabled{
+    /*input中被禁用的框的效果*/
+}
+a:target{
+    /*被跳转时的效果*/
+}
+div:lang(en){
+    /*选定语言的效果*/
+}
+/*伪元素选择器*/
+a::first-letter{/*选中第一个文字*/}
+/*常用的还有*/
+/*first-line 选中的第一行文字*/
+/*selection 被选中的内容*/
+/*placeholder 选中提示框的提示文字*/

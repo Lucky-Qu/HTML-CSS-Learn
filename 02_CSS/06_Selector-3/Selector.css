@@ -1,0 +1,21 @@
+/*属性选择器共有五种写法*/
+/*选中拥有指定属性的标签*/
+[id] {
+    font-size: 50px;
+}
+/*选中拥有指定属性的标签，且属性值为指定值*/
+[id="furniture1"] {
+    background-color: olivedrab;
+}
+/*选中拥有指定属性的标签，且属性值以指定值开头*/
+[id^="furn"] {
+    background-color: green;
+}
+/*选中拥有指定属性的标签，且属性值以指定值结尾*/
+[id$="r3"] {
+    color: orange;
+}
+/*选中拥有指定属性的标签，且属性值包含指定值*/
+[id*="nit"] {
+    font-size: 100px;
+}
