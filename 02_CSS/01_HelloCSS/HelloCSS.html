@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello CSS</title>
+<!--将CSS代码写在head标签内称为内部样式，用于对当页标签进行修饰-->
+  <style>
+    h2{
+      color: blue;
+      font-size: 70px;
+    }
+  </style>
+<!--将CSS代码单独写在后缀为.css的文件中，而后使用link标签使用，rel属性为引入文件与当前文件的关系，填写stylesheet，href填写路径-->
+<link rel="stylesheet" href="HelloCSS.css">
+</head>
+<body>
+<!--在标签内连style标签来使用样式，称为内连样式表，但其不符合出结构和样式分离的思想所以只用来进行简单的修饰-->
+<!--color指颜色，font-size指字体大小-->
+<h1 style="color: red; font-size: 100px">Hello CSS</h1>
+<h2>Hello CSS</h2>
+<h2>Hello World</h2>
+<p>LuckyQu</p>
+<!--在修饰相同标签时，存在优先级行内<内部=外部，同级情况下后面写的会覆盖前面写的-->
+</body>
+</html>
