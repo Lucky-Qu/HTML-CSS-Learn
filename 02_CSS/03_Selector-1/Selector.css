@@ -1,0 +1,29 @@
+/*通配选择器,用*标识，会作用于页面内的全部标签*/
+* {
+    color: aqua;
+}
+/*元素选择器，用想要修饰的标签标识，会作用于页面内的全部此项标签*/
+p {
+    color: purple;
+}
+/*类选择器，用.类名的格式进行书写，会作用于这个类的全部标签*/
+.AClassName1 {
+    color: red;
+}
+.AClassName2 {
+    font-size: 50px;
+}
+/*Id选择器，用#id的格式进行书写，作用于这个id的标签*/
+#AId {
+    color: chocolate;
+}
+/*交集选择器，作用于满足多个条件的标签*/
+h2.AClassName1.AClassName2 {
+    color: darkblue;
+}
+/*并集选择器，使用,隔开每一个条件，满足条件其一则对满足的的标签作用*/
+h3,
+h4,
+h5{
+    background-color: violet;
+}
