@@ -1,0 +1,33 @@
+.font1 {
+    /*字体大小*/
+    font-size: 16px;
+    /*字体族，如果不可用依次向后使用，都不可用则执行sans-serif（非衬线）或填写serif（衬线）*/
+    font-family: "Microsoft YaHei", sans-serif;
+    /*字体风格，有italic和oblique两种策略，前者先寻找字体有没有斜体，如没有强制斜体，后者直接强制*/
+    font-style: italic;
+    /*字体粗细，拥有lighter，normal，bold，bolder四种选项，从细到粗，也可以直接写数值*/
+    font-weight: normal;
+    /*字体颜色*/
+    color: rgba(0,0,0,1);
+    /*字母间距*/
+    letter-spacing: 10px;
+    /*词语间距*/
+    word-spacing: 10px;
+    /*字体修饰，有none（无线），underline（下划线），line-through（划线），overline（上划线）等*/
+    text-decoration: underline;
+    /*字符缩进*/
+    text-indent: 10px;
+    /*水平对齐方式*/
+    text-align: center;
+    /*行高,也可以直接写不带单位的数字，意为当前字体大小的倍数*/
+    line-height: 200px;
+    /*字体所在高度*/
+    height: 100px;
+    /*在所在行的对齐方式，不能控制块元素*/
+    vertical-align: middle;
+}
+
+.font2 {
+    /*字体复合属性，倒数两位必须有且是字体大小和字体族*/
+    font: italic normal 18px Microsoft YaHei, sans-serif;
+}
