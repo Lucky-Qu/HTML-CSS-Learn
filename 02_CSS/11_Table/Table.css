@@ -1,0 +1,10 @@
+table {
+    /*边框宽度*/
+    border-width: 10px;
+    /*边框颜色*/
+    border-color: blue;
+    /*边框线条样式*/
+    border-style: solid;
+    /*有简写格式*/
+    /*border: aqua 10px solid;*/
+}
