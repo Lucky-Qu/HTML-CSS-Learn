@@ -1,0 +1,8 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    /*padding的值如果只写一个代表上下左右，写两个代表上下，左右，写三个表示上，左右，下，写四个表示上右下左*/
+    /*也可以分开来设置不同的长度*/
+    padding: 10px;
+}
