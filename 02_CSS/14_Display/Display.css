@@ -1,0 +1,25 @@
+/*Display属性可以改变元素的展示方式，如让块元素以行内元素的方式展示，或让行内元素以块元素的方式展示*/
+#d1 {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+#d2 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+#d3 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+div{
+    display: inline-block;
+}
+a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
