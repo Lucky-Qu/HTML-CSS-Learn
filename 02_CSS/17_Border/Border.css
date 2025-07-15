@@ -1,0 +1,7 @@
+div {
+    /*边框可以调整样式，颜色，宽度，并且对于四个位置上下左右可以分开调整*/
+    border: 1px solid black;
+    /*border-style: ;*/
+    /*border-color: ;*/
+    /*border-width: ;*/
+}
