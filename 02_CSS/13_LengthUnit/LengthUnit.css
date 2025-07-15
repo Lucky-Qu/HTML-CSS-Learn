@@ -1,0 +1,35 @@
+.unit1{
+    color: blue;
+    background-color: green;
+    /*第一种单位，像素，1px就是一像素*/
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+}
+.unit2{
+    color: red;
+    background-color: aqua;
+    font-size: 20px;
+    /*第二种单位：em（基于font-size的倍数）*/
+    width: 5em;
+    height: 5em;
+}
+.unit3{
+    color: purple;
+    background-color: salmon;
+    font-size: 20px;
+    /*第三种单位：rem：基于根的font-size倍数*/
+    width: 5rem;
+    height: 5rem;
+}
+.unit4{
+    color: orange;
+    background-color: antiquewhite;
+    font-size: 20px;
+    /*第四种单位：%（基于父元素的font-size）*/
+    width: 200%;
+    height: 200%;
+}
+html{
+    font-size: 20px;
+}
