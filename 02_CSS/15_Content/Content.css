@@ -1,0 +1,9 @@
+div {
+    /*可以设置一个最低宽度和最高宽度，高度同理*/
+    width: 100px;
+    /*min-width: 100px;*/
+    /*max-width: 100px;*/
+    height: 100px;
+    /*min-height: 100px;*/
+    /*max-height: 100px;*/
+}
