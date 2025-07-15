@@ -1,0 +1,6 @@
+.box {
+    /*对于margin的属性参数参考border，也有上下左右单独设置等*/
+    /*特殊的是，对两个div设置上下margin时，第一个子元素的上margin会被父元素夺走，最后一个元素的下margin会被父元素夺走*/
+    /*两个上下接触的div如果上方的设置了下margin，下方的设置了上margin，则这两个margin会合并*/
+    margin: 20px;
+}
