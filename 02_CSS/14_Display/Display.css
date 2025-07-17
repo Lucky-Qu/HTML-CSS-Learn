@@ -1,4 +1,5 @@
 /*Display属性可以改变元素的展示方式，如让块元素以行内元素的方式展示，或让行内元素以块元素的方式展示*/
+/*可以配置visibility属性来控制是否显示，和display的区别在于，这个会占位*/
 #d1 {
     background-color: green;
     height: 100px;
