@@ -1,0 +1,9 @@
+#test {
+    color: green;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    /*配置overflow属性可以处理当文字或其他元素溢出时的展示效果*/
+    overflow: scroll;
+}
